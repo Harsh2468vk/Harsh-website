@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Are You Related?</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    select {
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>How are you related to Harsh?</h2>
+    <select onchange="location.href='second.html';">
+      <option selected disabled>Select an option</option>
+      <option>Friend</option>
+      <option>Relative</option>
+      <option>Colleague</option>
+      <option>Girlfriend</option>
+    </select>
+  </div>
+</body>
+</html>
